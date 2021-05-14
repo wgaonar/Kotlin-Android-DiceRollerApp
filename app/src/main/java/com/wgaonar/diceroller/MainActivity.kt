@@ -43,4 +43,6 @@ class MainActivity : AppCompatActivity() {
         diceImage.setImageResource(drawableResource)
         resultText.text = randomInt.toString()
     }
+
+    //TODO Add a sound when the user push the button to roll the dice
 }
